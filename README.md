@@ -7,11 +7,11 @@
 - `println!("string");` -- `name!()` run a macro,`name()` run a function.
 - `rustc` -- compiler
 - `cargo` -- is the tool chain
-  -- `cargo new project_name` -- new dir and scaffolding in `project_name` -- note it's a git init'd repo
-  -- `cargo build` -- makes a binary in `target` dir
-  -- `cargo run` -- builds and runs
-  -- `cargo check` -- doesn't run or build, just syntax check
-  -- `cargo build --release` -- makes a prod version
+    - `cargo new project_name` -- new dir and scaffolding in `project_name` -- note it's a git init'd repo
+    - `cargo build` -- makes a binary in `target` dir
+    - `cargo run` -- builds and runs
+    - `cargo check` -- doesn't run or build, just syntax check
+    - `cargo build --release` -- makes a prod version
 
 Typical workflow;
 
